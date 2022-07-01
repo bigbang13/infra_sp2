@@ -46,3 +46,21 @@ docker-compose exec web python manage.py loaddata fixtures.json
 Остановить работу контейнеров можно командой ```docker-compose down```.
 
 Документация после запуска доступна по адресу [localhost/redoc](http://localhost/redoc/).
+
+## Технологии
+
+- Python 3.8.10
+- Django 2.2.16
+- Django Rest Framework 3.12.4
+- PostgreSQL 13.0
+- Gunicorn 20.0.4
+- Nginx 1.21.3
+
+- Docker 20.10.17
+- Docker Compose 1.25.0
+
+### Автор
+
+Рябов В.С.
+email: ryabov.v.s@yandex.ru
+github: https://github.com/bigbang13
