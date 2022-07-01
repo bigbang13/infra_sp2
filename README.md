@@ -48,7 +48,7 @@ docker-compose exec web python manage.py loaddata fixtures.json
 Документация после запуска доступна по адресу [localhost/redoc](http://localhost/redoc/).
 
 ## Технологии
-
+### API
 - Python 3.8.10
 - Django 2.2.16
 - Django Rest Framework 3.12.4
@@ -56,11 +56,12 @@ docker-compose exec web python manage.py loaddata fixtures.json
 - Gunicorn 20.0.4
 - Nginx 1.21.3
 
+### Контейнер
 - Docker 20.10.17
 - Docker Compose 1.25.0
 
 ### Автор
 
-Рябов В.С.
-email: ryabov.v.s@yandex.ru
-github: https://github.com/bigbang13
+_Рябов В.С._
+_email: ryabov.v.s@yandex.ru_
+_github: https://github.com/bigbang13_
